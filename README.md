@@ -1,4 +1,4 @@
-# Thorin & Co
+# Thorin & Company
 
 ![Thorin Responsive Site Image](media/thorin-responsive.png)
 
