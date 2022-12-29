@@ -151,7 +151,7 @@ The site is deployed using Heroku. To deploy to Heroku:
 To fork the repository:
 
 1. Log in (or sign up) to Github.
-2. Go to the repository for this project, [Thorin Flask App Repo](https://github.com/kera-cudmore/thorin-flask-app).
+2. Go to the repository for this project, [Thorin company flask Repo](https://github.com/llancruzz/thorin-company-flask).
 3. Click the Fork button in the top right corner.
 
 #### How to Clone
