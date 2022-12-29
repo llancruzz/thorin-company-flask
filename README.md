@@ -1,108 +1,183 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Thorin & Co
 
-Welcome Alan Cruz da Silva,
+![Thorin Responsive Site Image](media/thorin-responsive.png)
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+Thorin Flask App was created as part of a flask walkthough project on the Code Institutes Level 5 Diploma in Web Application Development.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+[Visit the deployed site.](https://flask-thorin.herokuapp.com//)
 
-## Gitpod Reminders
+## CONTENTS
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+* [User Stories](#user-stories)
+* [Design](#design)
+* [Features](#features)
+  * [General Features of the site](#general-features-of-the-site)
+  * [Future Implementations](#future-implementations)
+  * [Accessibility](#accessibility)
+* [Technologies Used](#technologies-used)
+  * [Languages Used](#languages-used)
+  * [Frameworks, Libraries & Programs Used](#frameworks-libraries--programs-used)
+* [Deployment & Local Development](#deployment--local-development)
+  * [Deployment](#deployment)
+  * [Local Development](#local-development)
+    * [How to Fork](#how-to-fork)
+    * [How to Clone](#how-to-clone)
+* [Testing](#testing)
+* [Credits](#credits)
+  * [Media](#media)
 
-`python3 -m http.server`
+- - -
 
-A blue button should appear to click: _Make Public_,
+## User Stories
 
-Another blue button should appear to click: _Open Browser_.
+* I want to be able to find out more information about Thorin and his Company.
+* I want to be able to contact the Company.
+* I want to be able to read some interesting articles relating to the Company.
+* I want to be able to see any job positions within the Company.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+- - -
 
-A blue button should appear to click: _Make Public_,
+## Design
 
-Another blue button should appear to click: _Open Browser_.
+This site uses the bootstrap clean blog template, this was chosen so that students could concentrate on using Flask and Jinja templating.
+- - -
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+## Features
 
-To log into the Heroku toolbelt CLI:
+### General Features of the site
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+Each page of the site features a:
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+* Favicon
 
-------
+  ![Favicon image](media/favicon.png)
 
-## Release History
+* Navbar (including responsive mobile navigation which utilises a hamburger menu)
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+  ![Navbar image](media/navbar.png)
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+  ![Mobile Navbar image](media/navbar-mobile.png)
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+* Footer
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+![Footer image](media/footer.png)
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+### Future Implementations
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+In a future implementation I would like to add further information to the site, such as battle stats etc for each member of the company. I would also like to improve on the blog functionality, as currently there are only 4 articles on the home page.
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+### Accessibility
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+I have been mindful during coding to ensure that the website is as accessible friendly as possible. This has been have achieved by:
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+* Using semantic HTML.
+* Using descriptive alt attributes on images on the site.
+* Providing information for screen readers where there are icons used and no text.
+* Ensuring that there is a sufficient colour contrast throughout the site.
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+- - -
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+## Technologies Used
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+### Languages Used
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+* HTML
+* Python3
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+### Frameworks, Libraries & Programs Used
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+* [Git](https://git-scm.com/) - For version control.
 
-------
+* [Github](https://github.com/) - To save and store the files for the website.
 
-## FAQ about the uptime script
+* [Shields.io](https://shields.io/) To add badges to the README.
 
-**Why have you added this script?**
+* [Flask](https://flask.palletsprojects.com/en/2.1.x/)
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+* [Jinja](https://jinja.palletsprojects.com/en/3.1.x/) - A templating language
 
-**How will this affect me?**
+- - -
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+## Deployment & Local Development
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+### Deployment
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+The site is deployed using Heroku. To deploy to Heroku:
 
-**So….?**
+1. To successfully deploy on Heroku we first need to create some files: a requirements.txt file and a Procfile.
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+2. The requirements.txt file contains all the applications and dependencies that are required to run the app. To create the requirements.txt file run the following command in the terminal:
 
-**Can I opt out?**
+    ```bash
+    pip3 freeze --local > requirements.txt
+    ```
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+3. The Procfile tells Heroku which files run the app and how to run it. To create the Procfile run the following command in the terminal:
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
+    ```bash
+    echo web: python app.py > Procfile
+    ```
 
-**Anything more?**
+    NOTE: The Procfile uses a capital P and doesn't have a file extension on the end.
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+4. If the Procfile has been created correctly it will have the Heroku logo next to it. It is also important to check the Procfile contents, as sometimes on creation a blank line will be added at the end of the file. This can sometimes cause problems when deploying to Heroku, so if the file contains a blank line at the end, delete this and save the file. Make sure to save both these files and then add, commit and push them to GitHub.
 
----
+5. Login (or sign up) to [Heroku.com](https://www.heroku.com).
 
-Happy coding!
+6. Click the new button and then click create new app.
+
+7. You will then be asked to give your app a name (these must be unique) and select a region. Once these are completed click create app.
+
+8. You will now need to connect the Heroku app to the GitHub repository for the site. Select GitHub in the deployment section, find the correct repository for the project and then click connect.
+
+9. Once the repository is connected, you will need to provide Heroku some config variables it needs to build the app. Click on the settings tab and then click reveal config vars button. You will now need to add the environment key/value variables that were used in the env.py file:
+
+    | KEY | VALUE |
+    | :-- | :-- |
+    | IP | 0.0.0.0 |
+    | PORT | 5000 |
+    | SECRET_KEY| YOUR_SECRET_KEY* |
+
+    *Denotes a value that is specific to your app.
+
+10. You're now ready to click the enable automatic deploys and create button. Heroku will start building the app.
+
+11. Click open app at the top of the screen and the Thorin application should now open in a new tab.
+
+### Local Development
+
+#### How to Fork
+
+To fork the repository:
+
+1. Log in (or sign up) to Github.
+2. Go to the repository for this project, [Thorin Flask App Repo](https://github.com/kera-cudmore/thorin-flask-app).
+3. Click the Fork button in the top right corner.
+
+#### How to Clone
+
+To clone the repository:
+
+1. Log in (or sign up) to GitHub.
+2. Go to the repository for this project, [Thorin company flask Repo](https://github.com/llancruzz/thorin-company-flask).
+3. Click on the code button, select whether you would like to clone with HTTPS, SSH or GitHub CLI and copy the link shown.
+4. Open the terminal in your code editor and change the current working directory to the location you want to use for the cloned directory.
+5. Type 'git clone' into the terminal and then paste the link you copied in step 3. Press enter.
+
+- - -
+
+## Testing
+
+Testing was carried out throughout the build of the project. Please see the [testing file](TESTING.md) for more information.
+
+- - -
+
+## Credits
+
+* Code Institute modules on Flask.
+
+### Media
+
+* [Image of Thorin & Company](https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/fadc668e-5f6a-4648-9d27-e91eb6973da7/d5nay7b-9991c1db-0f4a-4f3f-a95a-0b53947a14f9.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2ZhZGM2NjhlLTVmNmEtNDY0OC05ZDI3LWU5MWViNjk3M2RhN1wvZDVuYXk3Yi05OTkxYzFkYi0wZjRhLTRmM2YtYTk1YS0wYjUzOTQ3YTE0ZjkucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.eknvKAWOPVaW_j6s7cbG6EKi-TGwolEaaTetCmjNYUA) used for the page header image.
+
+* [Company Bio Information](https://lotr.fandom.com/wiki/Thorin_and_Company) Was taken from the Lord of the Ring Fandom Page for Thorin & Company.
